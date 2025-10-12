@@ -1,0 +1,6 @@
+.jpcc-site-logo {
+  transform: scale(0.85);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block; }
+  .jpcc-site-logo:hover {
+    transform: scale(0.89); }
