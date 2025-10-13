@@ -1,0 +1,9 @@
+/* Lightweight full-screen modal lightbox */
+.jpcc-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:9999;opacity:0;pointer-events:none;transition:opacity .18s ease}
+.jpcc-lightbox-overlay.jpcc-open{opacity:1;pointer-events:auto}
+.jpcc-lightbox-content{max-width:95vw;max-height:95vh}
+.jpcc-lightbox-content img{width:auto;max-width:100%;height:auto;max-height:100%;display:block;border-radius:3px}
+.jpcc-lightbox-close{position:absolute;top:18px;right:18px;color:#fff;background:rgba(0,0,0,.4);border:0;padding:.5rem .7rem;font-size:1.1rem;border-radius:4px;cursor:pointer}
+.jpcc-lightbox-caption{color:#fff;margin-top:.5rem;text-align:center;font-size:.95rem;opacity:.95}
+.jpcc-lightbox-img{cursor:zoom-in}
+@media (max-width:480px){.jpcc-lightbox-close{top:8px;right:8px;padding:.4rem .5rem}}
