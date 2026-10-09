@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/bdanin/Sites/jpcc/jpcc-hugo/web",
+	"sourceRoot": "/home/dlangevi/auto/jpcc/site-hugo/web",
 	"sources": [
 		"ananke/css/main.css"
 	],
